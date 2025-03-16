@@ -1,4 +1,4 @@
-package org.classes;
+package org.ex1.classes;
 
 
 public class Book implements Comparable<Book>{
@@ -18,8 +18,7 @@ public class Book implements Comparable<Book>{
 
     @Override
     public int compareTo(Book other) {
-        boolean result;
-        result = other.getTitle().equalsIgnoreCase(getTitle());
-        return result;
+        return this.getTitle().compareToIgnoreCase(other.getTitle());
     }
+
 }
