@@ -28,3 +28,13 @@ Crea una classe jUnit que verifiqui el seu correcte funcionament, parametritzant
 - Exercici 3
 Crea una classe amb un mètode que llanci una ArrayIndexOutOfBoundsException.
 Verifica el seu correcte funcionament amb un test jUnit.
+
+💻Deployments used
+
+Maven v4, jUnit v5.8.2
+
+
+📋Documentation
+
+Dependencies: jUnit Jupiter -> params, api and engine.
+More documentaion in POM.xml file
